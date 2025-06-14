@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Sethupathi - Official Movie Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Particle Background -->
+    <div class="particles" id="particles"></div>
+
+
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <header>
+        <div class="logo">Vijay Sethupathi</div>
+        <nav>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#movies">Movies</a>
+                <a href="#awards">Awards</a>
+                <a href="#upcoming">Upcoming</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-image">
+        <img src="vjsbg.jpg" alt="Vijay Sethupathi Hero Image">
+        <div class="hero-text" data-aos="fade-up" data-aos-duration="1000">
+            <h1>Vijay Sethupathi</h1>
+            <p>Discover the journey of one of Tamil cinema's most versatile actors, known for his unique roles and authentic performances.</p>
+            <div class="hero-buttons">
+                <a href="#movies" class="cta-button">Explore Movies</a>
+                <a href="#about" class="cta-button secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="content-section">
+        <div class="container">
+            <h2 data-aos="fade-up">About Vijay Sethupathi</h2>
+            <div class="about-content" data-aos="fade-up" data-aos-delay="200">
+                <div class="about-text">
+                    <p>Vijay Sethupathi, often called the "Makkal Selvan" (People's Treasure), is one of Tamil cinema's most celebrated actors. Known for his natural acting style and ability to transform into any character, he has become a household name across South India.</p>
+                    <p>From his humble beginnings to becoming one of the most sought-after actors, Vijay Sethupathi's journey is an inspiration to many aspiring artists.</p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>Movies</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>15+</h3>
+                        <p>Awards</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>15+</h3>
+                        <p>Years</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Movies Section -->
+    <section id="movies" class="content-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Featured Movies</h2>
+            <div class="movie-filter" data-aos="fade-up" data-aos-delay="200">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="drama">Drama</button>
+                <button class="filter-btn" data-filter="thriller">Thriller</button>
+                <button class="filter-btn" data-filter="romance">Romance</button>
+            </div>
+
+            <div class="movie-grid">
+                <div class="movie-card" data-category="drama" data-aos="fade-up" data-aos-delay="100">
+                    <div class="movie-card-inner">
+                        <img src="dlx.avif" alt="Super Deluxe">
+                        <div class="movie-info">
+                            <h3>Super Deluxe</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="rating-text">4.5/5</span>
+                            </div>
+                            <p>A neo-noir film that explores the intertwined lives of various characters in a thought-provoking narrative.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=3-Xq_Zz3nPA" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Super_Deluxe_(film)" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card" data-category="drama" data-aos="fade-up" data-aos-delay="200">
+                    <div class="movie-card-inner">
+                        <img src="vv.jpg" alt="Vikram Vedha">
+                        <div class="movie-info">
+                            <h3>Vikram Vedha</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="rating-text">4.8/5</span>
+                            </div>
+                            <p>A gripping crime thriller that follows the cat-and-mouse game between a cop and a gangster.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=1sVr-uWZPjE" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Vikram_Vedha" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card" data-category="romance" data-aos="fade-up" data-aos-delay="300">
+                    <div class="movie-card-inner">
+                        <img src="966.jfif" alt="96">
+                        <div class="movie-info">
+                            <h3>96</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="rating-text">4.9/5</span>
+                            </div>
+                            <p>A beautiful romantic drama about two high school sweethearts who meet at a reunion after 22 years.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=_sbkAFROsKc" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/%2796_(film)" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="movie-card" data-category="romance" data-aos="fade-up" data-aos-delay="300">
+                    <div class="movie-card-inner">
+                        <img src="pp.jpg" alt="Pannaiyarum Padminiyum">
+                        <div class="movie-info">
+                            <h3>Pannaiyarum Padminiyum</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="rating-text">3.8/5</span>
+                            </div>
+                            <p>where the village head, Pannaiyar, owns a beloved vintage Premier Padmini car.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=ZzlwxYFWCfg" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Puriyatha_Puthir" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-category="romance" data-aos="fade-up" data-aos-delay="300">
+                    <div class="movie-card-inner">
+                        <img src="merry chr.jpg"Merry Christmas">
+                        <div class="movie-info">
+                            <h3>Merry Christmas</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="rating-text">3.3/5</span>
+                            </div>
+                            <p>Merry Christmas is a 2024 Indian mystery thriller film directed by Sriram Raghavan.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=xwm2BIS81CU" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Merry_Christmas_(2024_film)" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="movie-card" data-category="romance" data-aos="fade-up" data-aos-delay="300">
+                    <div class="movie-card-inner">
+                        <img src="dharmadurai.jpg" alt="Dharma Durai">
+                        <div class="movie-info">
+                            <h3>Dharma Durai</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="rating-text">3.9/5</span>
+                            </div>
+                            <p>Through flashbacks, it’s revealed Dharmadurai was once a respected MBBS graduate and village doctor.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=DLGxmCc2rGI" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Dharma_Durai_(2016_film)" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="movie-card" data-category="romance" data-aos="fade-up" data-aos-delay="300">
+                    <div class="movie-card-inner">
+                        <img src="karuppan.jpg" alt="Karuppan">
+                        <div class="movie-info">
+                            <h3>Karuppan</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="rating-text">2.5/5</span>
+                            </div>
+                            <p>The romantic angle begins when Anbu, a cheerful and loving village girl, meets Karuppan.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=F2G8Bm1fxjE" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Karuppan" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="movie-card" data-category="drama" data-aos="fade-up" data-aos-delay="400">
+                    <div class="movie-card-inner">
+                        <img src="kk.webp"  alt="Kadhalum Kadanthu Pogum">
+                        <div class="movie-info">
+                            <h3>Ka Ka Poo</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="rating-text">4.2/5</span>
+                            </div><p>Kathir is laid-back, dreams of owning a bar, and has a golden heart beneath his rowdy exterior.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=tTaKnjPbOPU" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Kadhalum_Kadandhu_Pogum" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-category="drama" data-aos="fade-up" data-aos-delay="400">
+                    <div class="movie-card-inner">
+                        <img src="rekka.jpg"  alt="Rekka">
+                        <div class="movie-info">
+                            <h3>Rekka</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="rating-text">3.2/5</span>
+                            </div><p>The story follows Shiva, a good-hearted young man known for reuniting separated lovers.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=AcAibmLFS2k" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Rekka_(film)" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-category="drama" data-aos="fade-up" data-aos-delay="400">
+                    <div class="movie-card-inner">
+                        <img src="junga.jpg"  alt="Junga">
+                        <div class="movie-info">
+                            <h3>Junga</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="rating-text">3.5/5</span>
+                            </div><p>Junga is a Tamil action-comedy film starring Vijay Sethupathi in a dual role as father and son.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=G4g2Kg6wXBc" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Junga_(film)" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="movie-card" data-category="drama" data-aos="fade-up" data-aos-delay="400">
+                    <div class="movie-card-inner">
+                        <img src="sethupathi.jpg"  alt="sethupathi">
+                        <div class="movie-info">
+                            <h3>Sethupathi</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="rating-text">3.5/5</span>
+                            </div><p>Junga is a Tamil action-comedy film starring Vijay Sethupathi in a dual role as father and son.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=ig2K3YGWg0o" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Sethupathi_(film)" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-category="drama" data-aos="fade-up" data-aos-delay="400">
+                    <div class="movie-card-inner">
+                        <img src="master.jpg"  alt="Master">
+                        <div class="movie-info">
+                            <h3>Master</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="rating-text">4.8/5</span>
+                            </div><p>Junga is a Tamil action-comedy film starring Vijay Sethupathi in a dual role as father and son.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=UTiXQcrLlv4" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Master_(2021_film)" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                   <div class="movie-card" data-category="drama" data-aos="fade-up" data-aos-delay="400">
+                    <div class="movie-card-inner">
+                        <img src="maha.jpg"  alt="Maharaja">
+                        <div class="movie-info">
+                            <h3>Maharaja</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="rating-text">4.8/5</span>
+                            </div><p>Junga is a Tamil action-comedy film starring Vijay Sethupathi in a dual role as father and son.</p>
+                            <div class="movie-actions">
+                                <a href=https://www.youtube.com/watch?v=z37hCm4eges class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Maharaja_(2024_film)" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                   <div class="movie-card" data-category="drama" data-aos="fade-up" data-aos-delay="400">
+                    <div class="movie-card-inner">
+                        <img src="vikram.jfif"  alt="vikram">
+                        <div class="movie-info">
+                            <h3>Vikram</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="rating-text">4.8/5</span>
+                            </div><p>Junga is a Tamil action-comedy film starring Vijay Sethupathi in a dual role as father and son.</p>
+                            <div class="movie-actions">
+                                <a href=https://www.youtube.com/watch?v=OKBMCL-frPU class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Vikram_(2022_film)" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-category="drama" data-aos="fade-up" data-aos-delay="400">
+                    <div class="movie-card-inner">
+                        <img src="vd2.jfif"  alt="viduthalai2">
+                        <div class="movie-info">
+                            <h3>Viduthalai2</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="rating-text">4.3/5</span>
+                            </div><p>Junga is a Tamil action-comedy film starring Vijay Sethupathi in a dual role as father and son.</p>
+                            <div class="movie-actions">
+                                <a href=https://www.youtube.com/watch?v=HOxXrrwa_8o class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Viduthalai_Part_2" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-category="drama" data-aos="fade-up" data-aos-delay="400">
+                    <div class="movie-card-inner">
+                        <img src="kavan.webp"  alt="Kavan">
+                        <div class="movie-info">
+                            <h3>Kavan</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="rating-text">4.1/5</span>
+                            </div><p>The film follows Thilak, a fearless and principled television journalist working in a popular media channel.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=y2mei-eRw2s" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Kavan_(film)" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-category="drama" data-aos="fade-up" data-aos-delay="400">
+                    <div class="movie-card-inner">
+                        <img src="Iraivi.jpg"  alt="Iraivi">
+                        <div class="movie-info">
+                            <h3>Iraivi</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="rating-text">4.7/5</span>
+                            </div><p>The film revolves around the lives of three flawed men actions have on the women around them.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=DH3iKNTT9-M" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Iraivi" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-category="drama" data-aos="fade-up" data-aos-delay="400">
+                    <div class="movie-card-inner">
+                        <img src="dq.avif"  alt="Tughlaq Darbar">
+                        <div class="movie-info">
+                            <h3>Tughlaq Darbar</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="rating-text">3.2/5</span>
+                            </div><p>Tughlaq Durbar is a Tamil political satire drama starring Vijay Sethupathi in the lead role.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=IKNqeuxQKqk" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Tughlaq_Durbar" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="movie-card" data-category="thriller" data-aos="fade-up" data-aos-delay="500">
+                    <div class="movie-card-inner">
+                        <img src="pizza.webp" alt="Pizza">
+                        <div class="movie-info">
+                            <h3>Pizza</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="rating-text">4.1/5</span>
+                            </div>
+                            <p>A supernatural thriller that marked Vijay Sethupathi's breakthrough performance in Tamil cinema.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=1ORbkrHs5JU" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Pizza_(2012_film)" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="movie-card" data-category="thriller" data-aos="fade-up" data-aos-delay="500">
+                    <div class="movie-card-inner">
+                        <img src="puthir.jpg" alt="puriytha puthir">
+                        <div class="movie-info">
+                            <h3>Puriytha puthir</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="rating-text">3.2/5</span>
+                            </div>
+                            <p>A terrifying kidnapping of Meera intensifies the suspense, but Kathir courageously rescues her.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=ZzlwxYFWCfg" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Puriyatha_Puthir" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="movie-card" data-category="drama" data-aos="fade-up" data-aos-delay="600">
+                    <div class="movie-card-inner">
+                        <img src="sk.jpg" alt="Soodhu Kavvum">
+                        <div class="movie-info">
+                            <h3>Soodhu Kavvum</h3>
+                            <div class="movie-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="rating-text">4.6/5</span>
+                            </div>
+                            <p>A dark comedy crime film that established Vijay Sethupathi as a versatile character actor.</p>
+                            <div class="movie-actions">
+                                <a href="https://www.youtube.com/watch?v=JwDc_9J9QqI" class="btn-watch">Watch Trailer</a>
+                                <a href="https://en.wikipedia.org/wiki/Soodhu_Kavvum" class="btn-info">More Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Awards Section -->
+    <section id="awards" class="content-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Awards & Recognition</h2>
+            <div class="awards-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="award-item">
+                    <div class="award-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Tamil Nadu State Award</h3>
+                    <p>Best Actor - Tamil (2012)</p>
+                    <span>For "Thenmerkku paruva katru"</span>
+                </div>
+                <div class="award-item">
+                    <div class="award-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Behindwoods gold medal</h3>
+                    <p>Best Performance (2013)</p>
+                    <span>For "Soodhu Kavvum"</span>
+                </div>
+                <div class="award-item">
+                    <div class="award-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>SIIMA Award</h3>
+                    <p>Best Actor (2014)</p>
+                    <span>For "Pannaiyarum Padminiyum"</span>
+                </div>
+                <div class="award-item">
+                    <div class="award-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>Edison Award</h3>
+                    <p>Best Actor (2016)</p>
+                    <span>For "Iraivi"</span>
+                </div>
+                <div class="award-item">
+                    <div class="award-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>Film Fare Award</h3>
+                    <p>Best Actor (2017)</p>
+                    <span>For "Dharma Durai"</span>
+                </div>
+
+                   <div class="award-item">
+                    <div class="award-icon">
+                    <i class="fas fa-star"></i>
+                    </div>
+                    <h3>SIIMA Award</h3>
+                    <p>Best Villan (2018)</p>
+                    <span>For "Vikram Vedha"</span>
+                </div>
+                    
+                <div class="award-item">
+                    <div class="award-icon">
+                    <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>National Award</h3>
+                    <p>Best Supporting Actor (2019)</p>
+                    <span>For "Super Deluxe"</span>
+                </div>
+
+                <div class="award-item">
+                    <div class="award-icon">
+                    <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Zee cinema Award</h3>
+                    <p>Best Villan (2021)</p>
+                    <span>For "Master"</span>
+                </div>
+
+                <div class="award-item">
+                    <div class="award-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>South indian Award</h3>
+                    <p>Supporting Role (2022)</p>
+                    <span>For "Vikram"</span>
+                </div>
+                   
+                <div class="award-item">
+                    <div class="award-icon">
+                    <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Film Festival Award</h3>
+                    <p>Best performance (2023)</p>
+                    <span>For "Viduthalai"</span>
+                </div>
+
+                     <div class="award-item">
+                    <div class="award-icon">
+                    <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Black Sheep Award</h3>
+                    <p>Best Actor (2024)</p>
+                    <span>For "Maharaja"</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Movies Section -->
+    <section id="upcoming" class="content-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Upcoming Projects</h2>
+            <div class="upcoming-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="upcoming-card">
+                    <div class="upcoming-image">
+                        <img src="traine.avif" alt="Upcoming Movie 1">
+                        <div class="release-date">2025</div>
+                    </div>
+                    <div class="upcoming-info">
+                        <h3>Train</h3>
+                        <p>The highly anticipated sequel to the blockbuster hit.</p>
+                        <div class="genre-tags">
+                            <span>Action</span>
+                            <span>Drama</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="upcoming-card">
+                    <div class="upcoming-image">
+                        <img src="tt.jpg" alt="Upcoming Movie 2">
+                        <div class="release-date">2025</div>
+                    </div>
+                    <div class="upcoming-info">
+                        <h3>Thalaivan Thalaivi</h3>
+                        <p>A mysterious new project that promises to showcase a different side of the actor.</p>
+                        <div class="genre-tags">
+                            <span>Thriller</span>
+                            <span>Mystery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content" data-aos="fade-up" data-aos-delay="200">
+                <div class="contact-info">
+                    <h3>Connect With Us</h3>
+                    <p>For professional inquiries, collaborations, or fan mail, feel free to reach out through our official channels.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>priyavijaysethupathi@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 98765 43210</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Chennai, Tamil Nadu, India</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <footer>
+        <div class="footer-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#movies">Movies</a>
+            <a href="#awards">Awards</a>
+            <a href="#upcoming">Upcoming</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com/VijaySethupathi.Official/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/vijaysethuoffl?lang=en" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/crazy_on_sethupathi?igsh=cG5jcG16ZmIzNnJj" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@Crazy_on_sethupathi" aria-label="YouTube" ><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>&copy; 2025 Vijay Sethupathi. All rights reserved. | Designed with ❤️ for fans</p>
+    </footer>
+
+    <!-- AOS Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
